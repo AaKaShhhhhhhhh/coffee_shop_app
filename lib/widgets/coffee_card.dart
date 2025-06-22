@@ -147,6 +147,26 @@ class CoffeeCard extends StatelessWidget {
                 padding: EdgeInsets.all(6),
               ),
             ),
+            Positioned(
+              bottom: 8,
+              right: 8,
+              child: ElevatedButton(
+                onPressed: () => Navigator.pushNamed(context, '/product'),
+                style: ElevatedButton.styleFrom(
+                  backgroundColor: isDark ? darkTextColor : Colors.brown[800],
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(8),
+                  ),
+                ),
+                child: Text(
+                  'View Details',
+                  style: TextStyle(
+                    color: isDark ? Colors.black : Colors.white,
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
+              ),
+            ),
           ],
         ),
       ),

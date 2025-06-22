@@ -65,6 +65,9 @@ flutter:
     - assets/img4.png
     - assets/img5.png
     - assets/img6.png
+    - assets/screenshots/details.png
+    - assets/screenshots/home_light.png
+    - assets/screenshots/home_dark.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
